@@ -1,12 +1,15 @@
 {
     "name": "xs-abscd/test",
-    "description": "My Personal Library",
+    "description": "test",
     "license": "MIT",
     "require": {
         "php": ">=5.3"
     },
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
-        "classmap": ["src/"]
+        "psr-4": {
+            "test\\Bundle\\testBundle\\": ""
+        }
     }
 }
