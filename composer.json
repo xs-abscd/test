@@ -1,7 +1,7 @@
 {
     "name": "myProject/myLibrary",
     "description": "My Personal Library",
-    "license": "proprietary",
+    "license": "MIT",
     "require": {
         "php": ">=5.3"
     },
