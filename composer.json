@@ -1,0 +1,11 @@
+{
+    "name": "myProject/myLibrary",
+    "description": "My Personal Library",
+    "license": "proprietary",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
